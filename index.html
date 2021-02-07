@@ -16,7 +16,7 @@
   
   <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     
-    <!---- js file---->
+   
  
 <style>
 html {
@@ -60,9 +60,9 @@ body {
     font-weight: 900;
 }
 
-/* #input:checked~.setup-nav {
+#input:checked~.setup-nav {
     right: 0px;
-} */
+}
 
 #barrs {
     display: none;
@@ -1880,28 +1880,7 @@ textarea {
     </main>
 <script>
  AOS.init();
-    var setup = document.getElementById("setup-nav");
-        var inp = document.querySelector("#input");
-
-
-
-
-        document.querySelector("#duplicate").addEventListener("click", () => {
-
-            if (inp.checked == false) {
-                setup.style.right = "0px";
-            } else if (inp.checked == true) {
-                setup.style.right = "-415px";
-            }
-
-        });
-
-        setup.addEventListener("click", (e) => {
-            if (inp.checked == true) {
-                setup.style.right = "-415px";
-                inp.checked = false;
-            }
-        })
+   
   </script>
 </body>
 
