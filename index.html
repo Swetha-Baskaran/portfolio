@@ -1880,12 +1880,13 @@ textarea {
     </main>
 <script>
 // ===============scroll-reveal=========    
-// AOS.init();
+AOS.init();
 //=================navbar===============
 var setup = document.getElementById("setup-nav");
 var inp = document.querySelector("#input");
 
-document.querySelector("#duplicate").addEventListener("click", () => {
+var dd =document.querySelector("#duplicate");
+dd.addEventListener("click", () => {
 
 if (inp.checked == false) {
       setup.style.right = "0px";
@@ -1901,7 +1902,7 @@ setup.addEventListener("click", (e) => {
             inp.checked = false;
          }
       });    
-  </script>
+</script>
 </body>
 
 </html>
