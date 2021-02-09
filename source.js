@@ -1,4 +1,4 @@
-var setup = document.getElementById("setup-nav");
+var setup = document.querySelector(".setup-nav");
 var inp = document.querySelector("#input");
 
 document.querySelector("#duplicate").addEventListener("click", () => {
