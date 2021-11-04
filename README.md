@@ -9,3 +9,7 @@ This portfolio depicts who am i, my skills, what i had done as a frontend develo
 I was fascinated about programming and currently in the way upgrading my skills.
 I was very much intrested in the fields of Web technologies and Data Science.
 
+#0c2335
+
+
+#031f35e0
