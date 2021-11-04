@@ -6,10 +6,5 @@ I'm a B.tech II - year student specialized in Information Technology studing in 
 
 This portfolio depicts who am i, my skills, what i had done as a frontend developer (Projects), and this is also an interface to communicate with me.
 
-I was fascinated about programming and currently in the way upgrading my skills.
+I was passionated about programming and currently in the way upgrading my skills.
 I was very much intrested in the fields of Web technologies and Data Science.
-
-#0c2335
-
-
-#031f35e0
