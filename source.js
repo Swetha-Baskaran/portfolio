@@ -118,6 +118,6 @@ let sendEmail = () => {
 };
 
 document.getElementById("submit").addEventListener("click", ()=>{
-    sendEmail()
-    
+    sendEmail();
+    alert("Thank your for your message");
 })
