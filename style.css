@@ -37,10 +37,7 @@ body {
     transform: translate(-30px, 56px);
     margin: 10px 82px 0px 138px;
     justify-items: center;
-    background: #06253dad;
     padding: 0px 0px 67px 0px;
-    box-shadow: 0 0 13px 0px #031f3573, 0 0 7px 0px #757f8773;
-    border-radius: 5px;
 }
 
 .setup-nav li {
@@ -88,7 +85,7 @@ a {
 
 .page-1 {
     width: 100%;
-    height: 100vh;
+    height: 110vh;
     text-align: center;
     color: white;
     background-image: url(https://i.postimg.cc/k5VcmWHD/pic-6.jpg);
@@ -105,7 +102,7 @@ a {
 
 .mine p {
     font-weight: 600;
-    
+    font-size: 1.5rem;
 }
 
 .shot-content {
@@ -127,14 +124,14 @@ a {
     z-index: 1;
     width: 100%;
     height: 100px;
-    top: 25%;
+    top: 20%;
 }
 
 .navbar {
     position: fixed;
     background: #173a56;
     width: 100%;
-    height: 45px;
+    height: 58px;
     overflow-x: hidden;
     z-index: 11;
 }
@@ -142,7 +139,7 @@ a {
 .row-1 {
     display: flex;
     justify-content: space-between;
-    height: 50px;
+    height: 58px;
     align-items: center;
 }
 
@@ -154,11 +151,11 @@ a {
     list-style-type: none;
     text-indent: 0px;
     text-transform: uppercase;
-    font-size: 11px;
+    font-size: 1rem;
     color: white;
     text-align: center;
     font-family: sans-serif;
-    padding: 11px 12px;
+    padding: 17px 12px;
     border: 3px solid #173a56;
     transform: 0.2s ease;
     background-color: transparent;
@@ -174,11 +171,7 @@ a {
 
 
 .links {
-    width: 46%;
-}
-
-.mine {
-    width: 20%;
+    width: max-content;
 }
 
 .btn {
@@ -211,7 +204,7 @@ a {
     line-height: 0px;
     color: white;
     font-family: monospace;
-    font-size: 46px;
+    font-size: 5rem;
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 2px;
@@ -222,17 +215,18 @@ a {
     line-height: 46px;
     font-family: monospace;
     color: #ffffff;
-    font-size: 41px;
+    font-size: 5rem;
     text-transform: capitalize;
     font-weight: 600;
 }
 
 .codings {
-    line-height: 11px;
+    line-height: 31px;
     color: white;
     text-shadow: 0 0 6px black;
     font-family: -webkit-pictograph;
     text-decoration: underline;
+    font-size: 3rem;
 }
 
 .down {
@@ -263,6 +257,7 @@ a {
 
 .view{
     padding: 5px 15px;
+    font-size: 1rem;
     background: transparent;
     border: 2px solid white;
     margin-top: 20px;
@@ -286,8 +281,8 @@ a {
 /*------------------------------about----------------------------------*/
 
 .my-pic {
-    min-width: 220px;
-    min-height: 115px;
+    min-width: 310px;
+    min-height: auto;
     inline-size: 18%;
     position: relative;
 }
@@ -326,14 +321,13 @@ a {
     background: #0c2335;
     display: flex;
     padding: 0% 6% 8% 6%;
-    height: 420px;
+    height: max-content;
     align-items: center;
 }
 
 
 .social_media {
     position: relative;
-    top: 510px;
     display: flex;
     margin: 20px;
     justify-content: center;
@@ -405,8 +399,7 @@ a {
     border: 2px solid white;
     color: white;
     padding: 6px 17px;
-    margin: 12px 20px 20px 14px;
-    
+    margin: 12px 20px 50px 14px;
 }
 
 .cv:hover{
@@ -431,7 +424,7 @@ a {
     letter-spacing: 1px;
     font-family: sans-serif;
     color: white;
-    font-size: 22px;
+    font-size: 2rem;
 }
 
 
@@ -442,7 +435,7 @@ a {
 
 .proj-hut {
     display: grid;
-    grid-template-columns: 251px 251px 251px;
+    grid-template-columns: 20rem 20rem 20rem;
     grid-gap: 35px;
     justify-content: center;
     margin-top: 50px;
@@ -451,9 +444,11 @@ a {
 .proj-hut img {
     width: 242px;
     height: 175px;
+    /* width: 17rem;
+    height: 10rem; */
     margin: 2%;
-    border-radius: 6px;
-    box-shadow: 3px 3px 9px #000000b5;
+    box-shadow: 2px 9px 20px #4c4b4b29, 2px 4px 20px #4c4b4b38;
+    border: 1px solid #80808052;
     
 }
 
@@ -494,7 +489,7 @@ a {
 
 .quote {
     text-align: center;
-    height: 22%;
+    height: max-content;
     background: url(https://i.postimg.cc/k5VcmWHD/pic-6.jpg);
     color: white;
     background-attachment: fixed;
@@ -502,7 +497,7 @@ a {
 }
 
 .incoo {
-    padding: 4% 9% 9% 9%;
+    padding: 4% 9%;
     text-transform: capitalize;
     font-family: monospace;
     font-size: 21px;
@@ -526,7 +521,7 @@ a {
 .projects {
     text-align: center;
     padding-top: 1px;
-    margin-bottom: 20%;
+    margin-bottom: 10%;
 }
 
 .sub-projects {
@@ -565,7 +560,7 @@ a {
 .projects h1 {
     text-transform: uppercase;
     text-align: center;
-    font-size: 22px;
+    font-size: 2rem;
     font-family: sans-serif;
     margin: 94px 0px 37px 0px;
 }
@@ -590,7 +585,7 @@ a {
 
 .contacts {
     text-align: center;
-    min-height: 70%;
+    min-height: max-content;
     padding-top: 20px;
 }
 
@@ -680,16 +675,16 @@ textarea {
 }
 
 .col-2:nth-child(2) {
-    width: 65%;
+    width: 50%;
     transform: translate(10px, -21px);
 }
 
 .contacts h1 {
     text-transform: uppercase;
     text-align: center;
-    font-size: 22px;
+    font-size: 2rem;
     font-family: sans-serif;
-    margin-top: 94px;
+    margin-top: 60px;
     margin-bottom: 40px;
     position: relative;
     left: -21%;
@@ -738,11 +733,11 @@ textarea {
 .skill-topic {
     text-transform: uppercase;
     text-align: center;
-    font-size: 22px;
+    font-size: 2rem;
     font-family: sans-serif;
     margin: 3px 0px -38px 0px;
     transform: translateY(467px);
-  padding-top:12%;
+    padding-top:5%;
 }
 
 .skill1 h1 {
@@ -898,17 +893,17 @@ textarea {
 /*-----------------------footer--------------------------*/
 
 .foot {
-    height: 130px;
+    height: max-content;
     width: 100%;
     background-color: #031624;
     text-align: center;
     color: white;
     padding: 3% 0% 8% 0%;
     margin-top: 23px;
-  
+    font-size: 2rem;
 }
 .foo p{
-  font-size:14px;
+  font-size: 1.2rem;
 }
 .foo {
     position: relative;
@@ -940,7 +935,7 @@ textarea {
         background: #0c2335;
         display: flex;
         padding: 0% 6% 12% 6%;
-        height: 545px;
+        height: max-content;
         align-items: center;
     }
 
@@ -960,8 +955,8 @@ textarea {
 
 @media (max-width:900px) {
     .my-pic {
-        min-width: 178px;
-        min-height: 100px;
+       min-width: 310px;
+        min-height: auto;
         transform: translateY(32px);
         inline-size: 18%;
     }
@@ -969,13 +964,13 @@ textarea {
         width: 209px;
         height: 144px;
         margin: 6% 0%;
-        border-radius: 6px;
-        box-shadow: 3px 3px 9px #000000b5;
+        box-shadow: 2px 9px 20px #4c4b4b29, 2px 4px 20px #4c4b4b38;
+        border: 1px solid #80808052;
     }
 
     .proj-hut {
         display: grid;
-        grid-template-columns: 232px 231px 222px;
+        grid-template-columns: 16rem 16rem 16rem;
         grid-gap: 10px;
         justify-content: center;
     }
@@ -983,7 +978,7 @@ textarea {
         display: block;
         position: absolute;
         top: 32%;
-        right: 10%;
+        right: 5%;
         color: white;
     }
   .setup-nav {
@@ -1026,12 +1021,12 @@ textarea {
         width: 209px;
         height: 144px;
         margin: 6% 0%;
-        border-radius: 6px;
-        box-shadow: 3px 3px 9px #000000b5;
+        box-shadow: 2px 9px 20px #4c4b4b29, 2px 4px 20px #4c4b4b38;
+        border: 1px solid #80808052;
     }
     .my-pic {
-        min-width: 178px;
-        min-height: 100px;
+        min-width: 310px;
+        min-height: auto;
         transform: translateY(46px);
         inline-size: 18%;
     }
@@ -1040,15 +1035,15 @@ textarea {
 @media (max-width:790px) {
     .proj-hut {
         display: grid;
-        grid-template-columns: 232px 231px 222px;
+        grid-template-columns: 15rem 15rem 15rem;
         justify-content: center;
     }
     .proj-hut img {
         width: 209px;
         height: 144px;
         margin: 6% 0%;
-        border-radius: 6px;
-        box-shadow: 3px 3px 9px #000000b5;
+        box-shadow: 2px 9px 20px #4c4b4b29, 2px 4px 20px #4c4b4b38;
+        border: 1px solid #80808052;
     }
     .skill-holder {
         padding-top: 14%;
@@ -1080,24 +1075,47 @@ textarea {
     .secondary {
         background: #0c2335;
         display: flex;
-        padding: 0% 6% 12% 6%;
-        height: 625px;
+        flex-direction: column;
+        padding: 3% 6% 12% 6%;
+        height: max-content;
         align-items: center;
+    }
+    .n1::after {
+        content: '';
+        background: transparent;
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        bottom: -9px;
+        right: 96px;
+        border: 2px solid;
+        border-color: white;
+        border-top: none;
+        border-left: none;
+    }
+    
+    .n1::before {
+        content: '';
+        background: transparent;
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        top: -10px;
+        left: 95px;
+        border: 2px solid;
+        border-color: white;
+        border-bottom: none;
+        border-right: none;
     }
 }
 
 @media (max-width:750px) {
-    .proj-hut {
-        display: grid;
-        grid-template-columns: 204px 204px 204px;
-        justify-content: space-evenly;
-    }
     .proj-hut img {
         width: 192px;
         height: 136px;
         margin: 6% 3%;
-        border-radius: 6px;
-        box-shadow: 3px 3px 9px #000000b5;
+        box-shadow: 2px 9px 20px #4c4b4b29, 2px 4px 20px #4c4b4b38;
+        border: 1px solid #80808052;
     }
     .skkills:nth-child(2) {
         transform: translateX(7px);
@@ -1128,11 +1146,13 @@ textarea {
 @media (max-width: 680px){
     .social_media {
         position: relative;
-        top: 528px;
         display: flex;
         margin: 20px;
         justify-content: center;
         margin-top: 5px;
+    }
+    .sec-1:nth-child(1){
+        align-self: center;
     }
 }
 @media (max-width:670px) {
@@ -1140,13 +1160,13 @@ textarea {
         width: 182px;
         height: 134px;
         margin: 6% 3%;
-        border-radius: 6px;
-        box-shadow: 3px 3px 9px #000000b5;
+        box-shadow: 2px 9px 20px #4c4b4b29, 2px 4px 20px #4c4b4b38;
+        border: 1px solid #80808052;
     }
     .proj-hut {
         display: grid;
         grid-gap: 0px;
-        grid-template-columns: 191px 191px 191px;
+        grid-template-columns: 18rem 18rem;
         justify-content: space-evenly;
     }
     .page-1 {
@@ -1195,6 +1215,7 @@ textarea {
         color: white;
         text-shadow: 0 0 6px black;
         font-family: -webkit-pictograph;
+        font-size: 2rem;
     }
   .cls{
     margin-left:10px;
@@ -1203,7 +1224,6 @@ textarea {
   .social_media {
     justify-content: left;
     left: 70px;
-    top: 495px;
     width: 200px;
     margin-left: 0px;
     margin-top: 5px;
@@ -1214,19 +1234,19 @@ textarea {
 @media (max-width:630px) {
     .proj-hut {
         display: grid;
-        grid-template-columns: 169px 169px 169px;
+        grid-template-columns: 18rem 18rem;
         justify-content: space-evenly;
     }
     .proj-hut img {
         width: 172px;
         height: 126px;
         margin: 6% -1%;
-        border-radius: 6px;
-        box-shadow: 3px 3px 9px #000000b5;
+        box-shadow: 2px 9px 20px #4c4b4b29, 2px 4px 20px #4c4b4b38;
+        border: 1px solid #80808052;
     }
     .my-pic {
-        min-width: 200px;
-        min-height: 100px;
+        min-width: 310px;
+        min-height: auto;
         transform: translateY(53px);
         inline-size: 18%;
     }
@@ -1240,18 +1260,18 @@ textarea {
     .proj-hut {
         display: grid;
         grid-gap: 8px 26px;
-        grid-template-columns: 200px 200px;
+        grid-template-columns: 17rem 17rem;
         justify-content: center;
     }
     .proj-hut img {
         width: 200px;
         height: 140px;
         margin: 6% 4%;
-        border-radius: 6px;
-        box-shadow: 3px 3px 9px #000000b5;
+        box-shadow: 2px 9px 20px #4c4b4b29, 2px 4px 20px #4c4b4b38;
+        border: 1px solid #80808052;
     }
     .contacts h1 {
-        margin-top: 57px;
+        margin-top: 40px;
         margin-bottom: 53px;
         position: relative;
         left: 0%;
@@ -1303,29 +1323,47 @@ textarea {
         display: flex;
         flex-direction: column;
         padding: 0% 0%;
-        height: 1000px;
+        height: max-content;
         align-items: end;
     }
     .skkills:nth-child(2) {
         transform: translateX(-7px);
     }
-    .n1::before {
-        content: '';
-        display: none;
-    }
-    
     .n1::after {
         content: '';
-        display: none;
+        background: transparent;
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        bottom: -9px;
+        right: 96px;
+        border: 2px solid;
+        border-color: white;
+        border-top: none;
+        border-left: none;
+    }
+    
+    .n1::before {
+        content: '';
+        background: transparent;
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        top: -10px;
+        left: 95px;
+        border: 2px solid;
+        border-color: white;
+        border-bottom: none;
+        border-right: none;
     }
 }
 
 @media (max-width:570px) {
     .col-2:nth-child(1) {
         display: grid;
-        grid-template-columns: 202px 202px;
+        grid-template-columns: 16rem 16rem;
         justify-content: center;
-        margin-left: 9%;
+        margin-left: 11%;
     }
     .boxes {
         background: #143046;
@@ -1347,8 +1385,8 @@ textarea {
         width: 182px;
         height: 123px;
         margin: 6% 4%;
-        border-radius: 6px;
-        box-shadow: 3px 3px 9px #000000b5;
+        box-shadow: 2px 9px 20px #4c4b4b29, 2px 4px 20px #4c4b4b38;
+        border: 1px solid #80808052;
     }
     .skkills:nth-child(2) {
         transform: translateX(-12px);
@@ -1459,21 +1497,30 @@ textarea {
 }
 
 @media (max-width:530px) {
+    .n1::after {
+        content: '';
+        display: none;
+    }
+    
+    .n1::before {
+        content: '';
+        display: none;
+    }
     .proj-hut img {
         width: 182px;
         height: 123px;
         margin: 6% 4%;
-        border-radius: 6px;
-        box-shadow: 3px 3px 9px #000000b5;
+        box-shadow: 2px 9px 20px #4c4b4b29, 2px 4px 20px #4c4b4b38;
+        border: 1px solid #80808052;
     }
     .proj-hut {
         display: grid;
-        grid-template-columns: 200px 200px;
+        grid-template-columns: 14rem 14rem;
         justify-content: center;
     }
     .my-pic {
-        min-width: 200px;
-        min-height: 100px;
+        min-width: 310px;
+        min-height: auto;
         transform: translateY(20px);
         inline-size: 18%;
     }
@@ -1495,7 +1542,7 @@ textarea {
         display: flex;
         flex-direction: column;
         padding: 0% 0%;
-        height: 990px;
+        height: max-content;
         align-items: end;
     }
     .skkills:nth-child(2) {
@@ -1504,17 +1551,12 @@ textarea {
 }
 
 @media (max-width:510px) {
-    .proj-hut {
-        display: grid;
-        grid-template-columns: 200px 200px;
-        justify-content: center;
-    }
     .proj-hut img {
         width: 182px;
         height: 123px;
         margin: 6% 4%;
-        border-radius: 6px;
-        box-shadow: 3px 3px 9px #000000b5;
+        box-shadow: 2px 9px 20px #4c4b4b29, 2px 4px 20px #4c4b4b38;
+        border: 1px solid #80808052;
     }
     .skill1 h1 {
         text-align: center;
@@ -1634,7 +1676,7 @@ textarea {
         display: flex;
         flex-direction: column;
         padding: 0% 0%;
-        height: 1000px;
+        height: max-content;
         align-items: end;
     }
     .skkills:nth-child(2) {
@@ -1663,7 +1705,6 @@ textarea {
     transform: translate(15px, 0px);
 }
 .skill-topic {
-    
     padding-top: 17%;
 }
 }
@@ -1671,15 +1712,15 @@ textarea {
 @media (max-width:440px) {
     .proj-hut {
         display: grid;
-        grid-template-columns: 175px 175px;
+        grid-template-columns: 20rem;
         justify-content: center;
     }
     .proj-hut img {
-        width: 166px;
-        height: 117px;
+        width: 18rem;
+        height: 13rem;
         margin: 6% 1%;
-        border-radius: 6px;
-        box-shadow: 3px 3px 9px #000000b5;
+        box-shadow: 2px 9px 20px #4c4b4b29, 2px 4px 20px #4c4b4b38;
+        border: 1px solid #80808052;
     }
     .skkills:nth-child(2) {
         transform: translateX(1px);
@@ -1701,7 +1742,6 @@ textarea {
     .social_media {
         justify-content: left;
         left: 40px;
-        top: 502px;
         width: 200px;
         margin-left: 0px;
         margin-top: -4px;
@@ -1717,7 +1757,7 @@ textarea {
         display: flex;
         flex-direction: column;
         padding: 0% 0%;
-        height: 1060px;
+        height: max-content;
         align-items: end;
     }
 }
@@ -1749,15 +1789,15 @@ textarea {
       
     }
     .proj-hut img {
-        width: 153px;
-        height: 111px;
+        width: 18rem;
+        height: 13rem;
         margin: 6% 2%;
-        border-radius: 6px;
-        box-shadow: 3px 3px 9px #000000b5;
+        box-shadow: 2px 9px 20px #4c4b4b29, 2px 4px 20px #4c4b4b38;
+        border: 1px solid #80808052;
     }
     .proj-hut {
         display: grid;
-        grid-template-columns: 170px 160px;
+        grid-template-columns: 19rem;
         justify-content: center;
     }
     .persent {
@@ -1829,7 +1869,6 @@ textarea {
     .social_media {
         justify-content: left;
         left: 40px;
-        top: 530px;
         width: 200px;
         margin-left: 0px;
         margin-top: -4px;
@@ -1867,18 +1906,18 @@ textarea {
         padding-left:7px;
     }
     .proj-hut img {
-        width: 153px;
-        height: 111px;
+        width: 18rem;
+        height: 13rem;
         margin: 6% 2%;
-        border-radius: 6px;
-        box-shadow: 3px 3px 9px #000000b5;
+        box-shadow: 2px 9px 20px #4c4b4b29, 2px 4px 20px #4c4b4b38;
+        border: 1px solid #80808052;
     }
     .secondary {
         background: #0c2335;
         display: flex;
         flex-direction: column;
         padding: 0% 0%;
-        height: 1060px;
+        height: max-content;
         align-items: end;
     }
     .skkills:nth-child(2) {
@@ -1905,11 +1944,11 @@ textarea {
         transform: translateX(0px);
     }
     .proj-hut img {
-        width: 216px;
-        height: 145px;
-        margin: 6% -14%;
-        border-radius: 6px;
-        box-shadow: 3px 3px 9px #000000b5;
+        width: 18rem;
+        height: 10rem;
+        margin: 6% -34%;
+        box-shadow: 2px 9px 20px #4c4b4b29, 2px 4px 20px #4c4b4b38;
+        border: 1px solid #80808052;
     }
     .proj-hut {
         display: grid;
@@ -1923,7 +1962,7 @@ textarea {
         display: flex;
         flex-direction: column;
         padding: 0% 0%;
-        height: 1100px;
+        height: max-content;
         align-items: end;
     }
 }
